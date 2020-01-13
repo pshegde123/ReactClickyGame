@@ -1,0 +1,39 @@
+html,body{
+  font-size:25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.title {
+    width: 100%;
+    text-align: left;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+.navbar{
+    display:block;
+    background-color: #5133a4;
+    min-height: 70px;
+    width: 100%;
+}
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.navbar li{
+    color: white;
+    display: inline-block;
+    width: 33.3%;
+    text-align: center;
+}
+.brand{
+    font-weight: bold;
+    float: left;
+}
+.scoreBox{
+    float: right;
+}
+
+
